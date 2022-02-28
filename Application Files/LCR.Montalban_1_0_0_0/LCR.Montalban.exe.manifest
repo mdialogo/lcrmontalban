@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LCR.Montalban.exe" version="1.0.0.0" publicKeyToken="b5d9c25a01c70bc2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LCR.Montalban" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LCR.Montalban.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LCR.Montalban.exe" size="8152">
+      <assemblyIdentity name="LCR.Montalban" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RFrXU0qUNCJB6EfIkmEUVcKxetkxriC7Xy9mIHGhhuY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LCR.Montalban.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=IMAGENETLLC\Mdialogo" issuerKeyHash="cdfbd678c0bb6880c3e89e1087a24f35e52da1c6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>I9BvuYwg39L5hSq3oM6XjzAhNR5Es5/HCaQXvbv+WGo=</DigestValue></Reference></SignedInfo><SignatureValue>GDJoUkdbzuFEcx70+6rM2e/fojZ5nD9uSSpmNzfeYGw4OkR7yVuZlEpT0A8MHZKnQsroOWplOLQ/gQEd+xzgR1RMlkSxsMbs79Bw9yrQth6cKpOGvXgUW/aZUfnDAKr9ZV+48fND5IAu/AJEk1ZtmJpVjo9XENmzvfetj5Mw6z4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>szVHlr4phbQRAOXSLatV8yjjBkLoDt78Hgh8e/cqFI7nEG4oyHYn/+m+Xp0F9tPs2eTjyRdHcQhaoC2NMwQnhK0lN0nrotzHBun5+w9WR75dooOwp25qx2UTVWp3st0eNf1JGi/3kwBjeU18z6xU5ccBbjEtDvMmlNu+wzcza50=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6a58febbbd17a409c79fb3441e3521308f97cea0b72a85f9d2df208cb96fd023" Description="" Url=""><as:assemblyIdentity name="LCR.Montalban.exe" version="1.0.0.0" publicKeyToken="b5d9c25a01c70bc2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=IMAGENETLLC\Mdialogo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>//y5kdVlVj4YgVtGQBfLJqlOQ6sj9n7edLpxmGdaUNE=</DigestValue></Reference></SignedInfo><SignatureValue>Fh5UdRjthrxCYY2/XkQeoMwXGIH33KJMDl8ZICmG46DxQeqscWAg/R7voQcyS+6VlO7QYW8QiXqogFpNOk+x87yXbTIDz216fBZDXRMrjAkwJHu/YyWrCySJuJ1Y1QEOleKNl4mOfoGMss2ySgMBgfe2Sy/vfbPhHhJBXtz5JxE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>szVHlr4phbQRAOXSLatV8yjjBkLoDt78Hgh8e/cqFI7nEG4oyHYn/+m+Xp0F9tPs2eTjyRdHcQhaoC2NMwQnhK0lN0nrotzHBun5+w9WR75dooOwp25qx2UTVWp3st0eNf1JGi/3kwBjeU18z6xU5ccBbjEtDvMmlNu+wzcza50=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQf7gP5+vZB79L0r7QckljTzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigASQBNAEEARwBFAE4ARQBUAEwATABDAFwATQBkAGkAYQBsAG8AZwBvMB4XDTIyMDIyODA2MjIzNFoXDTIzMDIyODEyMjIzNFowMzExMC8GA1UEAx4oAEkATQBBAEcARQBOAEUAVABMAEwAQwBcAE0AZABpAGEAbABvAGcAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAszVHlr4phbQRAOXSLatV8yjjBkLoDt78Hgh8e/cqFI7nEG4oyHYn/+m+Xp0F9tPs2eTjyRdHcQhaoC2NMwQnhK0lN0nrotzHBun5+w9WR75dooOwp25qx2UTVWp3st0eNf1JGi/3kwBjeU18z6xU5ccBbjEtDvMmlNu+wzcza50CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBzN5rGY18z+KUTuZbSlHcA81b/uZaetv/0IM5ap/SXuw9Fa1RvvZxtaP3Yg8WczYIOSq8JvBeofS5UuHNQGycxU6Pe5EsXsjcF8YeZx3MGXIzLkO5lYGI5C8ks9yeJanI3pn+PYT/IcKlSqBcvrLKOTtQcrJW3o458Gzn5JkJbkQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
